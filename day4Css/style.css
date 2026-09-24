@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+p{
+    color: aqua;
+    background-color: azure;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    color: blueviolet;
+}
