@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            animation-name: changeColor;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+         /* @keyframes are resposible for animation it says now i will do the animation */
+
+        /* @keyframes changeColor {
+            from{background-color: red;}
+
+            to{background-color: blue;} */
+
+        /* @keyframes changeColor{
+            0% {background-color:red;}
+
+            25% {background-color: blueviolet;}
+
+            75% {background-color: burlywood;}
+        } */
+
+        @keyframes changeColor{
+            0% {transform: translateX(0); background-color: red;} 
+             25%{transform: translate(); background-color: yellow;}
+            50%{transform: translateY(200px); background-color: brown;}
+             75%{transform: translateX(0);}
+        }
+
+    </style>
+
+    
+</head>
+<body>
+    <div class="box">.</div>
+    <strong>Animation Effecr goes back to its origibal forn after completning</strong>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .box{
+        width: 100px;
+        height: 100px;
+        border: 20x solid white;
+        border-radius: 50%;
+        animation:glowBox 3s infinite ease-in-out;
+
+     }
+     @keyframes glowBox{
+
+        from{
+            box-shadow: 0 0 5px cyan,0 0 10px cyan; transform: translateX(0);
+        }
+
+        to {
+            box-shadow:0 0 5px cyan,0 0 40px yellow; transform:translateX(100px);
+        }
+        }
+     
+     /* when hight and width same if u gave borderradius as 50% it converts to round from squre */
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="box"></div>
+</body>
+</html>
