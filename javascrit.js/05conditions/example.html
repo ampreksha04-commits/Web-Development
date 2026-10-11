@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //logic - give user cafe menu and let user ordeesomething
+        //if bill is more than 100 i will give 10% dicount and calculate the final bill
+
+
+        //CAFE Menu
+        // array to store multiple dat and objet we using to collection of data
+        let cafemenu = [
+            {name:"coffe",price:100},
+
+            {name:"coke",price:50},
+
+            {name:"coke",price:50},
+        ]
+
+        console.log("user Choice :")
+        console.log("1st product",cafemenu[0].name,"2nd product",cafemenu[1].name)
+        console.log("price 1",cafemenu[0].price,"price 2",cafemenu[1].price)
+
+        let Totalbill = cafemenu[0].price+cafemenu[1].price
+        if (Totalbill>=150){
+
+            //10% -0.1
+            let discountedbill = Totalbill - (Totalbill*0.1)
+            console.log("bill after discount",Discuntedbill)
+        }else{
+            console.log("Total bill",Totalbill)
+        }
+
+    </script>
+</body>
+</html>
