@@ -24,6 +24,19 @@
 
         }
         greet()
+
+        //1. Global scope
+// let globalvar = "hi i am global";
+// This variable is declared outside the function, so it can be accessed from inside the function and the if block.
+// Accessible inside both areas ✓
+// 2. Function scope
+// let localvar = "hi i am inside function";
+// This variable is declared inside greet(), so it can be used inside that function, including its inner if block.
+// Accessible inside the function ✓
+// 3. Block scope
+// let blockvar = "hi i am inside block";
+// This variable is declared inside if (true), so it can be used only inside that block.
+// Accessible inside the if block ✓
     </script>
 </body>
 </html>

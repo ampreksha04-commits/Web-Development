@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="greet()">Login/clik</button> (here also i can call the fuction so getinto the calling)
+    <script>
+
+        //fuutions are used to do specific task example add to cart ,generate bill
+
+        //1.fuction keyword functionnname(){// Body -instruction }
+
+
+        function greet(){
+            console.log("good evening")
+
+            alert('welcome back')//alert is only for pop up
+        }
+       // greet() //calling
+
+
+       //2.Personalised fuction with paremeter (parameter or argument- acts like variable)
+       function greeting(name){
+
+        console.log("wellcome back ",name)
+       }
+       greeting("Dharmesh")
+       greeting("Preksha")
+       greeting("aditya") //write the task for one time and reusing
+
+
+       //3.Function with return keyword
+       function bill(price , quantity){
+        return price * quantity
+
+       }
+
+       let result = bill(100,2)// data needs to store
+       console.log(result)
+        
+       
+       //Arrow fuction: ()=> {}
+
+       let add = (a,b) =>  a+b
+       
+       console.log(add(2,7))
+
+
+       
+    </script>
+</body>
+</html>

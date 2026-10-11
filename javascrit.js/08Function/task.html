@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //even and ood
+
+        function evenodd(num){
+            if(num % 2 === 0){
+                return("even number")
+             }else{
+                return("odd number")
+             }
+        }
+        let result = evenodd(5)
+        console.log(result)
+
+
+        //Prime number 
+        //1. nor prime mot composite
+
+        function prime(n) {
+
+            if(n===1){
+                return("not an prime number")
+            }
+            if(n%2 === 0){
+                return false
+            }
+            if(n===2){
+                return true
+            }
+
+            //Logic for reverse string
+
+            let name = "john";
+            let reverstring = "";
+
+            for (let i = name.length-1;i >= 0 ; i--){
+                reverstring = reverstring+name[i]
+            }
+            console.log(reverstring)
+        }
+    </script>
+   
+</body>
+</html>
