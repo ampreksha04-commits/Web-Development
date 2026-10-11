@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let gloalvar = "hii i am global"
+
+        function greet(){
+
+            let localvar = "hi i am inside function"
+
+            if(true){
+                let blockvar = "hi i am inside block"
+
+                console.log(globalvar) //work everywhare
+                console.log(localvar)//can be called inside the function only 
+                console.log(blockvar)//will be work only inside the block
+            }
+
+        }
+        greet()
+    </script>
+</body>
+</html>
