@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = "preksha"
+
+        let age = 24 
+
+        console.log("Good evening my name is "+name+ "I am "+ age+"Years old") //old concet no proper space 
+
+        //Template string - 'BackTick - Bellow ESC button $(varaible/Parameter)
+
+        console.log('Good Evening My name is ${Preksha} and I am ${21} yrs old,Have a nice eve')
+
+        //setTimeout() - control function like timer 
+
+        setTimeout(() => {
+            console.log("Hello i will run the code after 5 sec")
+        },5000) //1000=1sec
+
+
+        setInterval(()=>{ 
+          console.log("Hello i will run the code after 2 sec")
+        },2000 )//keep on running after every 2 sec
+
+        //sperd operator - ...(symbol)-- help u to create the copy of arrray
+
+        let fruits = ["apple","mango","kiwi"]
+
+        let vegetables = ['tomato','potato']
+
+        let items = [...fruits,...vegetables]
+
+        console.log(items)
+    </script>
+
+</body>
+</html>
